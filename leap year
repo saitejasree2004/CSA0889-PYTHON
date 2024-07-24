@@ -1,0 +1,16 @@
+# Given month, date, and year
+month = 8
+date = 24
+year = 2023
+
+# Check if the year is a leap year
+is_leap_year = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+
+if is_leap_year:
+    print(f"{month}/{date}/{year} is in a leap year.")
+    next_anniversary_year = year + 1
+    print(f"The next anniversary will be on {month}/{date}/{next_anniversary_year}.")
+else:
+    print(f"{month}/{date}/{year} is not in a leap year.")
+    previous_anniversary_year = year - 1
+    print(f"The previous anniversary was on {month}/{date}/{previous_anniversary_year}.")
