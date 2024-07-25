@@ -1,0 +1,3 @@
+binary="011"
+decimal=int(binary,2)
+print(f"binary:{binary} is decimal{decimal}")
