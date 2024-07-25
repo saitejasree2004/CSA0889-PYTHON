@@ -1,0 +1,3 @@
+number = 29  # Example number
+lsb = number & 1
+print(f"LSB of {number} is {lsb}")
